@@ -1,0 +1,222 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+
+body {
+	background-image: url("../images/logo1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+h1 {
+	color: #34867E;
+	text-align: center;
+}
+
+h2 {
+	color:#34A19A;	
+}
+
+h3 {
+	color: #629991;
+}
+
+p {
+	color: #3D8E9B;	
+}
+
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+	
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: white;
+	background-color: #66b9b4;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color: #c7f5f6;
+	color: #4d7294;
+	}
+
+header {
+	width: 100%;
+	margin-left: 5px;	
+}
+
+#banner {
+	width: 100%;	
+}
+footer img {
+	height: 15px;
+	width: 15px;	
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	text-align: left;
+}
+
+.origin iframe {
+	width: 500px;
+	height: 400px;
+}
+
+
+@media screen and (orientation:landscape) and (max-width:500px){
+.top-nav a {
+	position: relative;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	width: 100%;
+	text-align: center;	
+}
+.origin h2 {
+	font-size: 14pt;
+}
+.origin iframe {
+	width: 500px;
+	height: 400px;
+}
+.cards img {
+	width: 200px;
+	height: 160px;
+}
+footer {
+	width: 100%;
+}
+footer p {
+	width: 100%;
+	margin-bottom: 1px;
+}
+footer h3 {
+	font-size: 12pt;
+}
+footer img {
+	width: 20px;
+	height: 20px;	
+}
+}
+
+@media screen and (orientation:landscape) and (min-width:481px) and (max-width:768px){
+.top-nav a {
+	position: static;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	text-align: center;	
+}
+.origin h2 {
+	font-size: 14pt;
+}
+.origin iframe {
+	width: 500px;
+	height: 400px;
+}
+.cards img {
+	width: 200px;
+	height: 160px;
+}
+footer {
+	width: 100%;
+}
+footer p {
+	width: 100%;
+	margin-bottom: 1px;
+}
+footer h3 {
+	font-size: 12pt;
+}
+footer a img {
+	width: 30px;
+	height: 30px;
+}
+}
+
+@media screen and (orientation:portrait) and (min-height:200px) and (max-height:600px){
+	.top-nav a {
+	position: static;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	text-align: center;	
+}
+.origin h2 {
+	font-size: 14pt;
+}
+.origin iframe {
+	width: 500px;
+	height: 400px;
+}
+.cards img {
+	width: 200px;
+	height: 160px;
+}
+footer {
+	width: 100%;
+}
+footer p {
+	width: 100%;
+	margin-bottom: 1px;
+}
+footer h3 {
+	font-size: 12pt;
+}
+footer a img {
+	width: 30px;
+	height: 30px;
+}
+}

@@ -1,0 +1,179 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: white;
+	background-color: #c10e0a;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color: #da7d3f;
+	color: #ca3912;
+	}
+	
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-image: url(../images/looney.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #f8804b;
+	width: 100%;
+	height: 100%;
+      }
+ 
+ #hangman {
+ 	font-family: 'Press Start 2P', cursive;
+ }
+      
+#playing {
+	width: 50%;
+	height: 20%;
+	margin-left: 30%; 
+}
+
+#playing h1 {
+	margin-left: 8%;
+	color: #ca3912;
+}
+
+#playing h2 {
+	margin-left: 30%;
+	color: #f8804b;
+}
+
+table {
+	border: 1px solid black;
+	width: 85%;
+	height: 85%;
+	margin-left: 10%;
+}	
+
+table tr td {
+	border: 1px solid black;
+}
+
+#letter {
+	width: 90%;
+	height: 90%;
+	margin: 5%; 
+}
+
+#letter tr {
+	background-color: #EEE1C9;
+}
+
+#guesses {
+	text-align: center;
+	margin-top: 25%;
+}
+
+#guess {
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+}
+
+#theWord {
+	text-align: center;
+	margin-bottom: 0px;
+}
+#theStatus {
+	text-align: center;
+	margin-top: 20%;
+}
+#theDashes {
+	text-align: center;
+}
+#board {
+	width: 100%:
+	height: 100%;
+	background-color: #da7d3f;
+}
+
+#game {
+	width: 100%;
+	height: 100%;
+}
+
+#pic {
+	margin-left: 30%;
+}
+
+#will {
+	text-align: center;
+	font-size: 16pt;
+	background-color: #c10e0a;
+	color: white;
+	font-family: 'Rock Salt', cursive;
+}
+
+#stat {
+	text-align: center;
+	margin-top: 5%;
+}
+
+input[type=button] {
+	width: 100%;
+	height: 100%;
+	color: #503408;
+	background-color: #f8804b;
+	font-family: 'Rock Salt', cursive;
+	font-size: 8pt;
+	text-align: center;
+}
+
+input[type=submit] {
+	width: 50px;
+	height: 30px;
+	background-color: #c10e0a;
+	color: white;
+	margin-left: 40%;
+	margin-bottom: 5%;
+	width: 20%;
+	height: 100%;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12pt;
+}
+
+audio {
+	height: 5px;
+	bottom: 1px;
+	opacity: 0.28;
+}

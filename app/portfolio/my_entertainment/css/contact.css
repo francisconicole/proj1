@@ -1,0 +1,180 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+
+body {
+	background-image: url(../images/email.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+#myform {
+	font: normal 11pt Arial, Times New Roman, Geneva, sans-serif;
+	width: 50%;
+	height: 100%;
+	margin-left: 5%;
+  	}
+  	
+#myform fieldset {
+  	border: none;
+  	width:80%;
+  	margin:5px;
+  	padding:5px;
+  	margin-top: 10px;
+  	}
+#myform ol li {
+  	list-style: none;
+  	padding: 5px;
+  	border: 1px solid #1c197e;
+  	background-color: #F0D5AC;
+  	}
+  	
+#myform ol li ol li {
+  	padding-bottom: 0;
+  	display: inline;
+  	padding: 0px;
+  	}
+  	
+#myform ol li label, .grouphead {
+  	font-weight: bold;
+	font-size: 16pt;
+  	display: block;
+  	margin-bottom: 5px;
+  	margin: 5px;
+  	color: #7B4714;
+  	}
+#myform ol li ol li label {
+  	font-weight: normal;
+  	display: inline;
+  	cursor: pointer
+  	}
+  	 
+#myform ol li input, #myform textarea {
+	display: block;
+	width: 80%;
+	border: 1px solid #888;
+	padding: 5px;
+	background: #F4EEDB;
+  	}
+#myform ol li:hover {
+  	background: #F1E9C2;
+  	}
+  	
+#myform ol li input[required] {
+  	border-color: #F00;
+  	}
+  	
+#myform ol li ol li input {
+  	display: inline;
+  	width: auto;
+  	}
+  	
+#myform textarea {
+  	height: 30%;
+  	}
+#myform li label {
+  	 color: #7B4914;
+  	 font-weight:bold;
+  	 }
+legend {
+	color: #47250C;
+	font-size: 18pt;
+  	 }
+fieldset .grouphead ol li {
+  	 display: inline;
+  	 }
+h1 {
+	color: #774F1F;
+	text-align: center;	
+	font-weight: bold;
+}
+.container {
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+}
+#send {
+	width: 20%;
+	height: 30%;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	background-color: #EED591;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: center;
+	color: #815C2D;
+	border-width: thin;
+	border-style: dashed;
+	font-size: 18pt;
+}
+#reset {
+	width: 20%;
+	height: 30%;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	background-color: #EED591;
+	margin-left: 3%;
+	margin-bottom: 3%;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: center;
+	color: #815C2D;
+	border-width: thin;
+	border-style: dashed;
+	font-size: 18pt;
+	margin-top: 5%;
+}
+label {
+	font-style: italic;
+}

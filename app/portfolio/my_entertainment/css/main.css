@@ -1,0 +1,114 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+.carousel img{
+    display:block;
+    width:45%;
+    margin: auto;
+		}
+.carousel .item {
+	max-height: 500px;
+		}
+.carousel {
+	-webkit-box-shadow: 10px 10px 20px #002624;
+	-moz-box-shadow: 10px 10px 20px #002624;
+	box-shadow: 10px 10px 20px #002624;
+		}
+
+.row p {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	color: #8e6a31;
+		}
+		
+.row h2 {
+	font-family: 'Paprika', cursive;
+	font-weight: bold;
+	margin-right: 10px;
+	color: #765623;
+		}
+		
+body {
+	background-image: url(../images/family1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+.carousel {
+	border: 10px solid #3c64a6;
+      	}
+.intro h1 {
+	text-align: center;
+	color: #8B6A1D;		
+}
+.intro p {
+	text-align: center;
+	color: #B1996D;
+}
+.span3 {
+	text-align: center;
+	margin-right: 10px;
+}
+
+#book li {
+    list-style-image: url('../images/book.png');
+}
+
+#write li {
+	list-style-image: url('../images/pen.png');
+}
+
+#game li {
+	list-style-image: url('../images/game.png');
+}
+
+#create li {
+	list-style-image: url('../images/design.png');
+}

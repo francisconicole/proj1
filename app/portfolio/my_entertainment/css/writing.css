@@ -1,0 +1,111 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+body {
+	background-image: url(../images/family1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+table {
+	width: 100%;
+	Height: 100%;
+	margin-right: auto;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+#poem {
+	width: 50%;
+	height: 1000px;	
+}
+#poem img {
+	width: 100%;
+	height: 1000px;	
+}
+#story {
+	width: 50%;
+	height: 1000px;
+	text-align: center;
+	color: #B78947;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;	
+}
+#story h3 {
+	margin-top: 20px;		
+}
+#story ul {
+	list-style-type: none;	
+}
+.select h4 {
+	font-size: 18px;
+}
+#blog {
+	width: 100px;
+	height: 100px;
+}
+#story h4 {
+	font-size: 14pt;	
+}
+form input {
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+h1 {
+	color: #623208;
+	font-size: 36pt;	
+	text-align: center;
+}

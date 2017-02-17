@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="../css/hangman.css"/>
+    <script type="text/javascript" src="../js/hangman.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Paprika|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+	<!-- Name: Nicole Francisco --> 
+	<!-- Email: franciscon@knights.ucf.edu --> 
+  </head>
+
+<body>
+	<div id="navlist">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="books.html">Books</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="games_created.html">Games Designed or Playable</a></li>
+    		<li><a href="writing.html">Writing</a></li>
+    		<li><a href="about.html">About Us</a></li>
+			<li><a href="family.html">My Family</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+    <br>
+    <br>
+    <br>
+	<div id="playing">
+		<img src="../images/hangman.png" alt="hangman icon" style="float:left"; width="50" height="50">
+		<h1 id="hangman">Welcome to Hangman</h1>
+		<h2>Let's Play!</h2>
+	</div>
+	<br>
+	<br>
+	<div id="game">
+		<table id="board">
+			<tr>
+				<td>
+					<h3 id="will">Will you hang Doc?</h3>
+					<img src="../images/wiley.png" alt="" style="width:300px; height:400px;" id="pic">
+				</td>
+				<td>
+					<img src="../images/bugs.png" alt="bugs bunny" style="float:right"; width="200" height="400"/>
+					<h3 id="guesses"></h3>
+					<h2 id="theDashes"></h2>
+					<h2 id="theWord"></h2>
+				</td>
+			</tr>
+			<tr>
+				<td id="status">
+					<img src="../images/marvin.png" alt="marvin the martian" style="float:right"; width="250" height="300"/>
+					<h3 id="theStatus"></h3>
+					<h3 id="stat"></h3>
+				</td>
+				<td>
+					<div id="letters" width="300" height="400">
+						<h3 id="guess">Pick a letter</h3>
+						<table id="letter">
+							<tr>
+								<td><input type="button" value="A" id="A" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'A')"/></td>
+								<td><input type="button" value="B" id="B" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'B')"/></td>
+								<td><input type="button" value="C" id="C" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'C')"/></td>
+								<td><input type="button" value="D" id="D" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'D')"/></td>
+								<td><input type="button" value="E" id="E" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'E')"/></td>
+								<td><input type="button" value="F" id="F" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'F')"/></td>
+								<td><input type="button" value="G" id="G" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'G')"/></td>
+							</tr>
+							<tr>
+								<td><input type="button" value="H" id="H" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'H')"/></td>
+								<td><input type="button" value="I" id="I" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'I')"/></td>
+								<td><input type="button" value="J" id="J" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'J')"/></td>
+								<td><input type="button" value="K" id="K" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'K')"/></td>
+								<td><input type="button" value="L" id="L" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'L')"/></td>
+								<td><input type="button" value="M" id="M" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'M')"/></td>
+								<td><input type="button" value="N" id="N" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'N')"/></td>
+							</tr>
+							<tr>
+								<td><input type="button" value="O" id="O" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'O')"/></td>
+								<td><input type="button" value="P" id="P" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'P')"/></td>
+								<td><input type="button" value="Q" id="Q" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'Q')"/></td>
+								<td><input type="button" value="R" id="R" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'R')"/></td>
+								<td><input type="button" value="S" id="S" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'S')"/></td>
+								<td><input type="button" value="T" id="T" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'T')"/></td>
+								<td><input type="button" value="U" id="U" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'U')"/></td>
+							</tr>
+							<tr>
+								<td><input type="button" value="V" id="V" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'V')"/></td>
+								<td><input type="button" value="W" id="W" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'W')"/></td>
+								<td><input type="button" value="X" id="X" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'X')"/></td>
+								<td><input type="button" value="Y" id="Y" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'Y')"/></td>
+								<td><input type="button" value="Z" id="Z" class="letter" onclick="isLetterInWord( document.getElementById('theWord').innerHTML, 'Z')"/></td>
+							</tr>
+						</table>
+						<br/>
+						<input type="submit" value="Play" id="play" class="restart" onClick="start()"/>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<audio id="sound" controls autoplay> 
+    	<source src="../audio/ask.wav" type="audio/mpeg">
+    </audio>
+  </body>
+</html>

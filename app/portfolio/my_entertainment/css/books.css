@@ -1,0 +1,146 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+body {
+	background-image: url(../images/book_back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+h1.thicker {
+	font-weight: bold;
+}
+h2 {
+	font-style: italic;
+}
+.top {
+	margin-left: 5%;
+}
+.fav {
+	text-align: center;	
+}
+.fav img{
+	width: 50%;
+}
+.romance {
+	text-align: center;
+}
+.teens {
+	text-align: center;
+}
+#feehan {
+	text-align: center;	
+}
+#kenyon {
+	text-align: center;	
+}
+#graham {
+	text-align: center;	
+}
+#roberts {
+	text-align: center;	
+}
+#feehan img {
+	width: 50%;	
+}
+#kenyon img {
+	width: 50%;	
+}
+#graham img {
+	width: 50%;	
+}
+#roberts img {
+	width: 50%;	
+}
+#hunger {
+	text-align: center;	
+}
+#twilight {
+	text-align: center;	
+}
+table {
+	width: 100%;	
+}
+td {
+	width: 50%;	
+}
+tr {
+	width: 50%;	
+}
+.night {
+	text-align: center;	
+}
+.night img {
+	width: 30%;	
+}
+h1 {
+	font-size: 28pt;	
+	color: #634A25
+}
+.top p {
+	font-size: 16pt;	
+	color: #BA834E;
+}
+a:link {
+	color: #AC7117;	
+}
+a:hover {
+	color: #7DB3D3;	
+}
+a:visited {
+	color: #E29F6C;	
+}
+h3 {
+	color: #A57926;	
+}
+h2 {
+	color: #88632A;	
+}
+p {
+	color: #AF8609;	
+}

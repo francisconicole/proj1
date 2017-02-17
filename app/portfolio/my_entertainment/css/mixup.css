@@ -1,0 +1,466 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+	
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: white;
+	background-color: #66b9b4;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color: #c7f5f6;
+	color: #4d7294;
+	}
+h1 {
+	font-family: turtles, chalkduster;
+	font-size: 36pt;
+	color: #2670ce;
+	margin: auto;
+	text-shadow: 0 0 5px #091467;
+	margin-left: 25px;
+	text-align: center;
+	text-shadow: 2px 2px #AED5F3;
+}
+#intro {
+	font: 14pt Chalkduster;
+	color: #1843af;
+	margin: auto;
+	top: 150px;
+	bottom: auto;
+	right: auto;
+	text-shadow: 0 0 3px #63f8f5;
+	text-align: center;
+	left: 400px;
+}
+body {
+	background: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	opacity: 10;
+}
+table {
+	width: 450px;
+	height: 500px;
+	border-style: none;
+	top: 25%;
+	opacity: 1;
+	align-content: center;
+	margin-left: 10%;
+}
+td{
+	border-style: none;
+	opacity: 1;
+	height: 500px;
+	width: 450px;
+	}
+tr{
+	border-style: none;
+}
+
+#imageSpot{
+	width: 450px;
+	height: 500px;
+	border-style: none;
+}
+
+#directions {
+	color: #1843af;
+	text-shadow: 0 0 1px #012928;
+}
+#textSpot{
+	width:450px;
+	color: #4d0389;
+	font: 16pt chalkduster;
+	opacity: 0.97;
+	background-color: #b4dbde;
+	background-size: cover;
+	height: 500px;
+}
+#enterText{
+	width: 200px;
+	color: rgb(6, 163, 224);
+	font: medium chalkduster;
+	background-color: #81def9;
+	position: relative;
+	margin-left: 45px;
+	margin-top: 15px;
+}
+
+.answer {
+	width: 500px;
+	height: 100px;	
+}
+#text{
+	width: 300px;
+	height: 200px;
+}
+.enter {
+	height: 200px;
+	width: 300px;	
+}
+#inputEnter {
+	position: relative;
+	background-color: #c3e9fc;
+	font-family: chalkduster;
+	color: #3207cb;
+}
+#enterInput{
+	background-color: #c5f6f6;
+	position: relative;
+	bottom: 24px;
+	height: 90px;
+	opacity: 0.86;
+	margin-left: 40px;
+}
+#instructions{
+	color: rgba(112, 3, 189, 0.72);
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal;
+	margin-left: 100px;
+	text-shadow: 0 0 1px #500a97;
+}
+
+#warn{
+	font: 20pt chalkduster;
+	margin-left: 600px;
+	color: #3d5cd3;
+	text-shadow: 4px 4px #1EEEE8;
+} 
+
+.logo {
+	height: 90px;
+	width: 800px;
+	left: 20%;	
+}
+
+audio {
+	height: 10px;
+	bottom: 20px;
+	opacity: 0.28;
+}
+
+header {
+	width: 100%;
+	margin-left: 5px;	
+}
+
+#banner {
+	width: 100%;	
+}
+
+footer img {
+	height: 15px;
+	width: 15px;	
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+footer {
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	text-align: left;
+	color: #B8F2F7;
+	background-color: #B8F0F4;
+}
+
+@media screen and (orientation:landscape) and (max-width:480px){
+.top-nav a {
+	position: static;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	width: 100%;
+	text-align: center;	
+}
+#banner {
+	margin-left: 0px;
+	width: 100%;
+	left: 0px;
+}
+header {
+	margin-left: 0px;
+	width: 99%;
+}
+footer a img {
+	width: 20px;
+	height: 20px;
+}
+footer {
+	width: 100%;	
+}
+.title h1 {
+	font-size: 20pt;
+	padding-top: 5px;
+}
+table {
+	width: 100%;
+	margin-left: 0px;
+	background-color: #B1F2F1;
+}
+#read {
+	width: 50%;
+}
+#location {
+	width: 50%;
+}
+#warn {
+	font-size: 16pt;
+	width: 100%;
+	margin-left: 1px;
+}
+body {
+	background-size: 480px auto;
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left 0%;
+	background-attachment: fixed;
+}
+footer p {
+	color: #507D8E;
+	text-indent: 5px;
+	margin-bottom: 1px;
+}
+#enterInput {
+	width: 50%;
+}
+#read #textSpot {
+	width: 100%;
+}
+#location #imageSpot {
+	width: 100%;
+}
+#enterInput #enterText {
+	width: 50%;
+	margin-left: 5px;
+}
+#enterInput #inputEnter {
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 10px;
+}
+}
+
+
+@media screen and (orientation:landscape) and (min-width:481px) and (max-width:768px){
+.top-nav a {
+	position: static;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	width: 100%;
+	text-align: center;	
+}
+#banner {
+	margin-left: 0px;
+}
+header {
+	margin-left: 0px;
+}
+footer a img {
+	width: 30px;
+	height: 30px;
+}
+footer {
+	width: 100%;	
+}
+.title h1 {
+	font-size: 20pt;
+	padding-top: 5px;
+}
+table {
+	width: 100%;
+	margin-left: 0px;
+	background-color: #B1F2F1;
+	margin-right: 5px;
+}
+#read {
+	width: 50%;
+	margin-right: 5px;
+}
+#location {
+	width: 50%;
+	margin-right: 5px;
+}
+#warn {
+	font-size: 16pt;
+	width: 100%;
+	margin-left: 1px;
+}
+body {
+	background-size: 480px auto;
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left 0%;
+	background-attachment: fixed;
+}
+footer p {
+	color: #507D8E;
+	text-indent: 5px;
+	margin-bottom: 1px;
+}
+#enterInput {
+	width: 25%;
+	margin-right: 5px;
+}
+#read #textSpot {
+	width: 100%;
+	margin-right: 5px;
+}
+#location #imageSpot {
+	width: 100%;
+	margin-right: 5px;
+}
+#enterInput #enterText {
+	width: 60%;
+	margin-left: 5px;
+}
+#enterInput #inputEnter {
+	width: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+}
+
+@media screen and (orientation:portrait) and (min-height:100px) and (max-height:600px){
+	.top-nav a {
+	position: static;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	height: 20px;
+	font-size: large;
+}
+#navigation {
+	width: 100%;
+	text-align: center;	
+}
+#banner {
+	margin-left: 0px;
+}
+header {
+	margin-left: 0px;
+}
+footer a img {
+	width: 30px;
+	height: 30px;
+}
+footer {
+	width: 100%;	
+}
+.title h1 {
+	font-size: 20pt;
+	padding-top: 5px;
+}
+table {
+	width: 100%;
+	background-color: #B1F2F1;
+	height: 50%;
+	margin-left: 0%;
+}
+#read {
+	width: 50%;
+	margin-right: 5px;
+	height: 50%;
+}
+#location {
+	width: 50%;
+	margin-right: 5px;
+	height: 50%;
+}
+#warn {
+	font-size: 16pt;
+	width: 100%;
+	margin-left: 1px;
+}
+body {
+	background-size: 480px auto;
+	width: 100%;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left 0%;
+	background-attachment: fixed;
+}
+footer p {
+	color: #507D8E;
+	text-indent: 5px;
+	margin-bottom: 1px;
+}
+#enterInput {
+	width: 25%;
+	margin-right: 5px;
+}
+#read #textSpot {
+	width: 100%;
+	margin-right: 5px;
+	height: 50%;
+	font-size: small;
+}
+#location #imageSpot {
+	width: 100%;
+	margin-right: 5px;
+	height: 50%;
+}
+#enterInput #enterText {
+	width: 60%;
+	margin-left: 5px;
+}
+#enterInput #inputEnter {
+	width: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+}
+

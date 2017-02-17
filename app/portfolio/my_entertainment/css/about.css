@@ -1,0 +1,134 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+body {
+	background-image: url(../images/family1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+p {
+	line-height:200%;
+	color:#4e2b83;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	padding:0;
+	}
+.nicole h1 {
+	color: #7A4D1A;
+	text-align: center;
+	font-family: aguafina-script;
+	font-style: normal;
+	font-weight: 400;
+}
+h2 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight:bold;
+	font-size:24pt;
+	color:#431489;
+	padding:0;
+	}
+	
+h3 {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight:bold;
+	color:#533482;
+	padding:0;
+	}
+#nicole1 {
+	width: 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	height: auto;
+}
+.nicole p {
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #A68E67;
+}
+.nicole h1 {
+	font-size: 48pt;
+	text-align: center;
+}
+.education h2 {
+	color: #66522C;	
+}
+.education h3 {
+	color: #94773F;	
+}
+.education p {
+	color: #A68E67;
+}
+.experience h2 {
+	color: #66522C;	
+}
+.experience h3 {
+	color: #94773F;	
+}
+.experience p {
+	color: #A68E67;
+}
+.skills h2 {
+	color: #66522C;	
+}
+.skills {
+	text-align: center;	
+}
+table {
+	width: 90%;
+	margin-left: 5%;
+}
+td {
+	width: 50%;
+	margin-top: 0px;
+	text-align: center;
+}
+li {
+	list-style-type:none;	
+}

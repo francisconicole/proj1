@@ -1,0 +1,118 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+body {
+	background-image: url(../images/gameback.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #EEE1C9;
+	width: 100%;
+	height: 100%;
+      }
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+.dragon {
+	width: 100%;	
+	text-align: center;
+}
+.dragon h2 {
+   	color: #dea01c;
+   	font-family: 'Paprika', cursive;
+   	font-weight: bold;
+   }
+.starwars h2 {
+   	color: #dea01c;
+   	font-family: 'Paprika', cursive;
+   	font-weight: bold;
+   }
+.starwars {
+	width: 100%;	
+	text-align: center;
+}
+.starcraft {
+	width: 100%;	
+	text-align: center;
+}
+.starcraft h2 {
+   	color: #dea01c;
+   	font-family: 'Paprika', cursive;
+   	font-weight: bold;
+   }
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #AD854B;
+   	   }
+.wow h2 {
+   	color: #dea01c;
+   	font-family: 'Paprika', cursive;
+   	font-weight: bold;
+   }
+.wow {
+	width: 100%;	
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: #775B30;	
+}
+a:link {
+	color: #754911;
+}
+a:hover {
+	color: #D1A2F1;	
+}
+a:vistied {
+	color: #C40909;	
+}
+table {
+	width: 100%;	
+}
+td {
+	width: 50%;	
+}
+tr {
+	width: 50%;	
+}

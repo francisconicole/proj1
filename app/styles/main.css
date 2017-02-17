@@ -1,0 +1,252 @@
+#power {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#excel {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#word {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#dream {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#illis {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#photoshop {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#photoshop {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#jquery {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#c2 {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#d3 {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#java {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#css {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#html {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+	font-size: 1.2em;
+}
+
+#tain img{
+	width: 350px;
+	height: auto;
+	padding-right: 50px;
+	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+#horde img {
+	width: 300px;
+	height: auto;
+	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+#now {
+	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+#before {
+	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+#special {
+	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2s;
+}
+
+.revealOnScroll { opacity: 0; }
+
+#honors {
+	  -webkit-transition: all 400ms ease; transition: all 400ms ease;
+}
+
+#dean {
+	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
+	}
+
+#magna {
+	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
+}
+
+#current {
+	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+}
+
+#buster {
+	-webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4s;
+}
+
+#place {
+	-webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 5s;
+}
+
+#usn {
+	-webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
+    animation-delay: 6s;
+}
+
+#name {
+	font-size: 3em;
+	color: #BCF7DF;
+}
+
+#fly {
+	box-shadow: 5px 5px 3px #147A39;
+}
+
+#intro {
+	font-size: 2em;
+	color: #BCF7DF;
+}
+
+#intro1 {
+	font-size: 2em;
+	color: #BCF7DF;
+}
+
+.info #school li{
+	list-style-image: url('images/cap.png');
+}
+
+.span4{
+	font-size: 1.3em;
+	color: #096E4A;
+}	
+
+img {
+	width: 100%
+}
+
+.info #fly {
+	font-size: 3em;
+}
+
+#skills {
+	color: #C0E3FA;
+}
+
+#skills ul li {
+	color: #096E4A;
+}
+
+body { 
+	font: 12px Arial;
+}
+ 
+path { 
+  stroke: steelblue;
+  stroke-width: 2;
+  fill: none;
+}
+ 
+.axis path,
+.axis line {
+	fill: none;
+	stroke: grey;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+.tooltip {
+	background: #eee;
+	box-shadow: 0 0 5px #999999;
+	color: #333;
+	font-size: 12px;
+	left: 130px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	top: 95px;
+	z-index: 10;
+	display: block;
+	opacity: 0;
+}
+
+.title{
+font-size:16px;
+}
+
+
+
+.info {
+	width: 100%;
+	height: 350px;
+	background-color: #5FB893;
+	text-align: center;
+}
+
+.info h2 {
+	font-size: 2em;
+	color: #BCF7DF;
+}
+
+/*-------------------------------pictures between parallax--------------------------*/
+.pic img {
+	width: 100%;
+	height: auto;
+}
+
+/*----------------------------------Parallax Start----------------------------------*/
+.parallax-container {
+      height: 500px;
+    }
+	
+.parallax img {
+	width: 100%;
+	height: auto;
+}

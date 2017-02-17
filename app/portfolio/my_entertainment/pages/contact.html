@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+  	<link href='http://fonts.googleapis.com/css?family=Paprika|Cinzel+Decorative' rel='stylesheet' type='text/css'>
+  	<!-- Name: Nicole Francisco --> 
+	<!-- Email: franciscon@knights.ucf.edu --> 
+  </head>
+
+  <body>
+	<div id="navlist">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="books.html">Books</a></li>
+			<li><a href="games.html">Games</a></li>
+			<li><a href="games_created.html">Games Designed or Playable</a></li>
+			<li><a href="writing.html">Writing</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="family.html">My Family</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>	
+    <br>
+    <br>
+    <br>
+    <h1>Contact Me</h1>
+    <div class="container">	
+		<form action="mailto:nglrf143@gmail.com" method"post" enctype="text/plain" id="myform">
+        	<fieldset>
+				<legend>What do you like?</legend>
+					<ol>
+						<li>
+							<label for="myname">Name *</label>
+							<input type="text" name="myemail" id="myname" autofocus placeholder="Last, First" required />
+						</li>
+						<li>
+							<label for="myemail">Email *</label>
+							<input type="email" name="myemail" id="myemail" required autocomplete="off" />
+						</li>
+					</ol>	
+    		</fieldset>
+            <fieldset>
+            	<ol>
+                	<li>
+                    	<label for="yourgame">Favorite Game?</label>
+                        <input type="text" name="yourgame" id="yourgame" autofocus placeholder="your favorite game"/>
+                    </li>
+                    <li>
+                    	<label for="yourmovie">Favorite Movie?</label>
+                        <input type="text" name="yourmovie" id="yourmovie" autofocus placeholder="your favorite movie"/>
+                    </li>
+                    <li>
+                    	<label for="yourbook">Favorite Book?</label>
+                        <input type="text" name="yourbook" id="yourbook" autofocus placeholder="your favorite book"/>
+                    </li>
+                    <li>
+                    	<label for="yourpasstime">Favorite Pass-time?</label>
+                        <input type="text" name="yourpasstime" id="yourpasstime" autofocus placeholder="your favorite passtime"/>
+                    </li>
+                </ol>
+            </fieldset>
+    		<fieldset>
+    			<div class="grouphead">Do you have?</div>
+    				<ol id="ask">
+                        <li>
+                            <label for="your comment">Comment or Question?</label>
+    						<input type="text" name="comment" value="your comment" id="mycomments"><br><br>
+                        </li>
+    						<input type="submit" value="Send" id="send">
+            				<input type="reset" value="Reset" id="reset">                          
+                    </ol>
+    	</fieldset>
+    </form>
+</div> <!-- /container -->
+
+  </body>
+</html>

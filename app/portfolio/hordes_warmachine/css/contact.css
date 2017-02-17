@@ -1,0 +1,201 @@
+/*-------------------------------Form Input-------------------------------------*/
+input[type="text"] {
+	background-color: #CAFACA;
+	width: 300px;
+	border: solid #ffb718 2px;
+}
+
+.sub {
+	display: inline-block;
+	background-color: #AD9355;
+	color: black;
+	text-shadow: 1px 1px  #ffb718;
+	padding: 5px 10px;
+	border-bottom: solid black 2px;
+	border-top: solid #BBE4F2 2px;
+	border-left: solid #BBE4F2 2px;
+	border-right: solid black 2px;
+}
+
+.info {
+	padding: 10px;
+	border: solid black 1px;
+}
+
+
+.questions h5 {
+	font-size: 1.3em;
+	text-shadow: 1px 1px  #88e30c;
+}
+
+/*-------------------------------Form-------------------------------------------*/
+#personal p {
+	font-size: 1em;
+}
+
+#personal {
+	margin: 0px;
+}
+
+label {
+	color: black;
+	text-shadow: 1px 1px #ffb718;
+}
+
+legend {
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: inset #ffb718 2px;
+    color: black;
+    text-shadow: 1px 1px #88e30c;
+    font-size: 1.9em;
+}
+
+fieldset p {
+	padding-left: 10px;
+	padding-top: 3px;
+	color: #ffb718;
+}
+
+#cont {
+	width: 500px;
+	height: auto;
+	margin-left: 30%;
+	padding-left: 10px;
+	border: solid black 2px;
+}
+
+/*------------------------body-------------------------------------*/
+body {
+	background-image: url("../img/bmat2.jpg");
+}
+
+
+/*----------------------------contact information-------------------------------*/
+#contact_info {
+	width: 500px;
+	margin-left: 30%;
+	text-align: center;
+	color: #FFB718;
+	font-size: 1.5em;
+	background-image: url("../img/bmat1.jpg");
+	background-size: cover;
+	background-repeat: none;
+	font-size: 1.3em;
+	text-shadow: 2px 1px black;
+	-webkit-box-shadow: 5px 5px 10px #002624;
+	-moz-box-shadow: 5px 5px 10px #002624;
+	box-shadow: 5px 5px 10px #002624;
+}
+
+#contact_info a {
+	color: #88e30c;
+}
+
+.clock {
+	float: right;
+}
+
+.container #event {
+	float: right;
+}
+
+#convention {
+	font-size: 1.4em;
+	text-shadow: 2px 2px black;
+	margin-left: 30%;
+	text-align: center;
+	display: inline;
+}
+
+#contact_image img{
+	width: 50px;
+	height: auto;
+	background-image: url("../img/bmat2.jpg");
+}
+
+#contact_image {
+	font-size: 2em;
+	color: #ffb718;
+	text-shadow: 2px 2px black;
+	-webkit-box-shadow: 5px 5px 10px #002624;
+	-moz-box-shadow: 5px 5px 10px #002624;
+	box-shadow: 5px 5px 10px #002624;
+	border: inset #88e30c 3px;
+}
+
+
+footer {
+	background-image: url("../img/bmat1.jpg");
+	color: #ffb718;
+	border: solid #88e30c 1px;
+	background-size: cover;
+	background-repeat: none;
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	text-align: left;
+	width: 100%;
+}
+
+footer img {
+	height: 15px;
+	width: 15px;	
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#foot li img {
+	width: 100px;
+	height: auto;
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+
+#foot {
+	width: 120px;
+}
+
+
+/*------------------------------Header with image-------------------------------*/
+header img{
+	width: 300px;
+	margin-left: 40%;
+}
+
+/*-------------------------------Navigation Bar---------------------------------*/
+
+.nav-wrapper .brand-logo {
+	padding-top: 10px;
+	color: #ffb718;
+	font-size: 2em;
+	margin-left: 10px;
+	font-style: underline;
+}
+
+.nav-wrapper {
+	background-image: url('../img/bmat1.jpg');
+	background-size: cover;
+	background-repeat: none;
+	border: solid #88e30c 1px;
+}
+
+.nav-wrapper ul li a{
+	color: #88e30c;
+	font-size: 1.5em;
+	text-align: center;
+	height: 60px;
+	padding-top: 15px;
+}
+
+.nav-wrapper ul li a:hover {
+	color: #FFB718;
+	background-color: #6db127;
+	text-align: center;
+}
+
+.nav-wrapper ul li {
+	height: 80px;
+{
+

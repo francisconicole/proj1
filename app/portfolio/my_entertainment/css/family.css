@@ -1,0 +1,93 @@
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist {
+	margin-left:3%;
+	margin-right: auto;
+	width: 100%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:13pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #8d5d9c;
+	background-color: #df94c7;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#ead0df;
+	color: #f6a5bc;
+	}
+	
+body {
+	background-image: url(../images/famback1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #e4c0d5;
+	width: 100%;
+	height: 100%;
+      }
+
+#best {
+	font-size: 18pt;
+	margin-left: 30%;
+	font-family: 'Satisfy', cursive;
+	color: #da4e7c;
+}
+
+#fran {
+	margin-left: 35%;
+	font-size: 18pt;
+	font-family: 'Aladin', cursive;
+	color: #da4e7c;
+}
+
+#francisco {
+	width: 350px;
+	height: 500px;
+	border: 4px inset #cc3d60;
+}
+
+#slide {
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.move {
+	margin-left: 4%;
+	background-color: #f56b84;
+	color: #f4c9f6;
+}
+
+.begin {
+	margin-left: 4%;
+	background-color: #f56b84;
+	color: #f4c9f6;
+}
+
+#hall {
+	margin-left: 35%;
+}

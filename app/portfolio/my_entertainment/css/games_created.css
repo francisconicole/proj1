@@ -1,0 +1,90 @@
+/* 
+//Author: Nicole Francisco
+//Email: franciscon@knights.ucf.edu
+ */
+@charset "UTF-8";
+#navlist ul {
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	}
+#navlist {
+	margin-left: auto;
+	margin-right: auto;
+	width: 150%;
+	}
+#navlist li {
+	display:inline;
+	float:left;
+	color:#83512A;
+	}
+li {
+	list-style-image: url('usb.gif');
+	padding:0;
+	margin:0;
+	color:#83512A;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:12pt;
+	}
+
+#navlist a:link,a:visited {
+	display: block;
+	width: 150px;
+	font-weight: bold;
+	color: #83512A;
+	background-color: #F7EC9B;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform;uppercase;
+	position: relative;
+	}
+
+#navlist a:hover,a:active {
+	background-color:#F7C89B;
+	color: #D1AE82;
+	}
+body {
+	background-image: url(../images/family1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+      }      
+h1 {
+	text-align: center;
+}
+#supernaturals {
+	margin-left: 300px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+#bible {
+	margin-bottom: 60px;
+	margin-right: 40%;
+	text-align: center;
+}
+#bubble {
+	margin-bottom: 60px;
+	margin-right: 40%;
+	text-align: center;
+}
+footer {
+	position: relative;
+	clear: both;
+	font-size: 12px;
+	text-align: left;
+	color: #1298A3;
+}
+footer img {
+	width: 10px;
+	height: 20px;
+}	
+#hang {
+	width: 45px;
+	height: 50px;
+}
+#hangman {
+	margin-right: 5%;
+	text-align: center;
+}
