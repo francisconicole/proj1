@@ -1,76 +1,20 @@
+ .wow { 
+	visibility: hidden; 
+}
+
+#prog {
+	float: left;
+	text-align: center;
+	margin-left: 20%
+}
+
+#soft {
+	float: right;
+	text-align: center;
+	margin-right: 20%;
+}
+
 #power {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#excel {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#word {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#dream {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#illis {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#photoshop {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#photoshop {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#jquery {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#c2 {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#d3 {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#java {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#css {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-	font-size: 1.2em;
-}
-
-#html {
 	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
     animation-delay: 3s;
 	font-size: 1.2em;
@@ -80,74 +24,21 @@
 	width: 350px;
 	height: auto;
 	padding-right: 50px;
-	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
 }
 
 #horde img {
 	width: 300px;
 	height: auto;
-	-webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
 }
 
-#now {
-	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
-}
 
-#before {
-	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
-}
-
-#special {
-	 -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 2s;
-}
-
-.revealOnScroll { opacity: 0; }
-
-#honors {
-	  -webkit-transition: all 400ms ease; transition: all 400ms ease;
-}
-
-#dean {
-	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
-	}
-
-#magna {
-	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
-}
-
-#current {
-	-webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3s;
-}
-
-#buster {
-	-webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
-    animation-delay: 4s;
-}
-
-#place {
-	-webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
-    animation-delay: 5s;
-}
-
-#usn {
-	-webkit-animation-delay: 6s; /* Safari 4.0 - 8.0 */
-    animation-delay: 6s;
-}
 
 #name {
-	font-size: 3em;
+	font-size: 5em;
 	color: #BCF7DF;
 }
 
-#fly {
-	box-shadow: 5px 5px 3px #147A39;
-}
+
 
 #intro {
 	font-size: 2em;
@@ -159,9 +50,22 @@
 	color: #BCF7DF;
 }
 
-.info #school li{
-	list-style-image: url('images/cap.png');
+#labor ul li {
+	color: #94F7EC;
+	font-size: 2em;
+	list-style-type: circle;
 }
+
+#edu ul li {
+	color: #94F7EC;
+	font-size: 2em;
+	list-style-type: circle;
+}
+
+#honors {
+	font-size: 2.8em;
+}
+
 
 .span4{
 	font-size: 1.3em;
@@ -181,7 +85,8 @@ img {
 }
 
 #skills ul li {
-	color: #096E4A;
+	color: #94F7EC;
+	font-size: 2em;
 }
 
 body { 
@@ -208,7 +113,7 @@ path {
 	color: #333;
 	font-size: 12px;
 	left: 130px;
-	padding: 10px;
+	padding: 0px;
 	position: absolute;
 	text-align: center;
 	top: 95px;
@@ -221,21 +126,64 @@ path {
 font-size:16px;
 }
 
-
+.direct {
+	font-size: 1.5em;
+	color: #94F7EC;
+}
 
 .info {
 	width: 100%;
-	height: 350px;
-	background-color: #5FB893;
+	height: 550px;
+	background-color: #3892B0;
 	text-align: center;
+	padding-top:0px;
+	border: solid #3892B0 1px;
+	-webkit-box-shadow: 5px 5px 10px #002624;
+	-moz-box-shadow: 5px 5px 10px #002624;
+	box-shadow: 5px 5px 10px #002624;
 }
 
 .info h2 {
 	font-size: 2em;
-	color: #BCF7DF;
+	color: #C0E3FA;
 }
 
-/*-------------------------------pictures between parallax--------------------------*/
+
+/*--------------------------Form Section---------------------------------*/
+#cont_me {
+	width: 100%;
+}	
+
+form {
+	width: 500px;
+	margin-left: 30%;
+}
+
+ .input-field label {
+     color: #0AF088;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #E7F7E1;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #078C6B;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #A6F5A6;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #F53643;
+     box-shadow: 0 1px 0 0 #000;
+   }
+ 
+
+/*-------------------------------pictures inside parallax--------------------------*/
 .pic img {
 	width: 100%;
 	height: auto;
@@ -243,10 +191,21 @@ font-size:16px;
 
 /*----------------------------------Parallax Start----------------------------------*/
 .parallax-container {
-      height: 500px;
+      height:500px;
     }
 	
 .parallax img {
 	width: 100%;
 	height: auto;
+	padding: 0px;
 }
+
+
+#sections > div{
+    opacity: .3
+} 
+
+#sections div.graph-scroll-active{
+    opacity: 1;
+}
+

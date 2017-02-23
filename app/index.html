@@ -13,11 +13,12 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/materialize/bin/materialize.css" />
     <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
     <!-- endbower -->
     <!-- endbuild -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	<script src="https://d3js.org/d3.v4.min.js"></script>
-	 <link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" href="animate.min.css">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <!-- build:css styles/main.css -->
@@ -27,6 +28,7 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
   </head>
   <body>
     <!--[if IE]>
@@ -34,7 +36,7 @@
     <![endif]-->
     
     <div class="info" id="fly">
-		<h1 class="animated zoomIn" id="name">Hello I'm Nicole Francisco</h1>
+		<h1 class="animated fadeIn" data-timeout="400" id="name">Hello I'm Nicole Francisco</h1>
 		<h3 class="animated fadeInUpBig" id="intro">Come see what makes me...</h3>
 		<h3 class="animated fadeInUpBig" id="intro1">Well...</h3>
 	</div>
@@ -50,14 +52,14 @@
 			
   			<h2 id="cation"></h2>
   			<ul class="span4" id="school">
-  				<li class="animated rollIn" id="now">University of Central Florida, 2013 to Current</li>
-  				<li class="animated rollIn" id="before">Seminole State College, 2009 - 2013</li>
-  				<li class="animated rollIn" id="special">Specialized Course: Military IT/Communications 2003</li>
+  				<li class="wow rollIn" id="now">University of Central Florida, 2013 to Current</li>
+  				<li class="wow rollIn" id="before">Seminole State College, 2009 - 2013</li>
+  				<li class="wow rollIn" id="special">Specialized Course: Military IT/Communications 2003</li>
   			</ul>
-  			<h2 id="honors">Honors</h2>
+  			<h2 class="wow zoomInLeft" id="honors">Honors</h2>
   			<ul class="span4">
-  				<li class="animated zoomInRight" id="dean">Deans List/Presidents List 2009-2013</li>
-  				<li class="animated zoomInRight" id="magna">Graduated Magna Cum Laude from Seminole State</li>
+  				<li class="wow zoomInRight" id="dean">Deans List/Presidents List 2009-2013</li>
+  				<li class="wow zoomInRight" id="magna">Graduated Magna Cum Laude from Seminole State</li>
   			</ul>
   		</div>
   		
@@ -70,10 +72,13 @@
   		<div class="info" id="labor">
   			<h2 id="work"></h2><br>
   			<ul class="span4">
-  				<li class="animated slideInRight" id="current">Student 2009-Current</li>
-  				<li class="animated slideInLeft" id="buster">BlockBuster, Lake Mary Fl 2008-2010</li>
-  				<li class="animated slideInRight" id="place">The Children's Place, Altamonte Springs Fl 2007-2008</li>
-  				<li class="animated slideInLeft" id="usn">USN/USS John C Stennis 2003-2006
+  				<li class="wow slideInRight" id="current">Student 2009-Current</li>
+				<li></li>
+  				<li class="wow slideInLeft" id="buster">BlockBuster, Lake Mary Fl 2008-2010</li>
+  				<li></li>
+				<li class="wow slideInRight" id="place">The Children's Place, Altamonte Springs Fl 2007-2008</li>
+  				<li></li>
+				<li class="wow slideInLeft" id="usn">USN/USS John C Stennis 2003-2006
   			</ul>
   		</div>
     	
@@ -82,25 +87,32 @@
 				<img src="images/adobe.jpg" alt="Adobe Products">
 			</div>
     	</div>
-  		
 		<div class="info" id="skills">
 			<div id="skill"></div>
-			<ul>
-			<li class="animated slideInRight" id="html">HTML</li>
-			<li class="animated slideInLeft"  id="css">CSS</h4>
-			<li class="animated slideInRight"  id="java">Javascript</li>
-			<li class="animated slideInLeft"  id="d3">D3</li>
-			<li class="animated slideInRight"  id="c2">C++</li>
-			<li class="animated slideInLeft"  id="jquery">JQuery</li>
-			<li class="animated slideInRight"  id="photoshop">PhotoShop</li>
-			<li class="animated slideInLeft"  id="illis">Illistrator</li>
-			<li class="animated slideInRight"  id="dream">Dreamweaver</li>
-			<li class="animated slideInLeft"  id="word">Word</li>
-			<li class="animated slideInRight"  id="excel">Excell</li>
-			<li class="animated slideInLeft"  id="power">PowerPoint</li>
-			</ul>
-
-  		</div>
+			<div class="sk">
+				<ul id="prog" class="wow bounceInLeft">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>jQuery</li>
+					<li>PHP</li>
+					<li>C++</li>
+					<li>D3</li>
+					<li>Node</li>
+					<li>Bower</li>
+					<li>Gulp</li>
+				</ul>
+				<ul id="soft" class="wow bounceInRight">
+					<li>PhotoShop</li>
+					<li>Illistrator</li>
+					<li>Dreamweaver</li>
+					<li>Final Cut Pro</li>
+					<li>Word</li>
+					<li>Excel</li>
+					<li>PowerPoint</li>
+				</ul>
+			</div>
+		</div>
 				
 		<div class="parallax-container">
       		<div class="parallax"> <img src="images/portfolio.png" alt="Adobe Products"></div>
@@ -109,15 +121,46 @@
     	<div class="info">
   			<h2 id="port"></h2>
 			<div>
-				<a href="portfolio/my_entertainment/index.html" id="tain"><img src="images/entertain.png" alt="Entertainment Web Site" class="animated fadeIn"></a>
-				<a href="portfolio/hordes_warmachine/landing.html" id="horde"><img src="images/hordes.png" alt="Entertainment Web Site" class="animated fadeIn"></a>
+				<a href="portfolio/my_entertainment/index.html" id="tain"><img src="images/entertain.png" alt="Entertainment Web Site" class="wow fadeIn"></a>
+				<a href="portfolio/hordes_warmachine/landing.html" id="horde"><img src="images/hordes.png" alt="Entertainment Web Site" class="wow fadeIn"></a>
 			</div>
-			<div>
-				<p class="span4">Click on image to view Site.</p>
-				<p class="span4">Page on right is of what I find entertaining and page on left is on a Table Top Game</p>
+			<div class="wow pulse">
+				<p class="direct">Click on image to view Site.</p>
+				<p class="direct">Page on right is of what I find entertaining and page on left is on a Table Top Game</p>
 			</div>
 		</div>
     
+		<div class="parallax-container">
+      		<div class="parallax"> <img src="images/contact.jpg" alt="Contact image"></div>
+    	</div>
+		
+		<div class="info">
+			<h2 id="cont"></h2>
+			<div id="cont_me">
+				<form  action="MAILTO:franciscon@kngiths.ucf.edu" method="post"> 
+					<div class="input-field">
+						<input id="first_name" name="first_name" type="text" class="validate" required="required">
+						<label for="first_name">Name</label>
+					</div>
+					<div class="input-field">
+						<input id="telephone" type="tel" class="validate">
+						<label for="telephone">Phone Number</label>
+					</div>
+					<div class="input-field">
+						<input id="email" name="email" type="email" class="validate" required="required">
+						<label for="email" data-error="wrong" data-success="right">Email</label>
+					</div>
+					<div class="input-field">
+						<textarea id="textarea" name="textarea" class="materialize-textarea" required="required"></textarea>
+						<label for="textarea">Message</label>
+					</div>
+					<div class="input-field center">
+						<button class="btn waves-effect waves-green" type="submit" name="action">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -128,23 +171,32 @@
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      	<script type="text/javascript" src="js/materialize.min.js"></script>
+      	<script type="text/javascript" src="scripts/materialize.min.js"></script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <script src="/bower_components/d3/d3.js"></script>
     <script src="/bower_components/materialize/bin/materialize.js"></script>
+    <script src="/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+    <script src="/bower_components/wow/dist/wow.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
+	<script src="scripts/scrollmagic/minified/ScrollMagic.min.js"></script>
     <!-- endbuild -->
+	
+
 	<script>
     		$(document).ready(function(){
       			$('.parallax').parallax();
+				$(".fancy_title").lettering();
+				Materialize.updateTextFields();
     		});
+			
+			new WOW().init();
 			
 			//Intro Section
 		
@@ -161,9 +213,8 @@
     		.style("transform", null);
 	
 			//Education Section
-			
-			
-			d3.select("#cation").append("h2")
+   
+            d3.select("#cation").append("h2")
     		.text("Education")
     		.style("text-align", "center")
     		.style("line-height", "120px")
@@ -171,8 +222,10 @@
 			.style("text-shadow", "2px 2px black")
     		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
   			.transition()
+			.delay(2000)
     		.duration(1500)
     		.style("transform", null);
+		
 			
 			//Work Section
 			
@@ -185,6 +238,7 @@
     		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
   			.transition()
     		.duration(1500)
+			.delay(5000)
     		.style("transform", null);
 	
 			//skills section
@@ -192,26 +246,42 @@
 			d3.select("#skill").append("h1")
     		.text("Skills")
     		.style("text-align", "center")
-    		.style("line-height", "80px")
+    		.style("line-height", "50px")
     		.style("font-size", "5em")
 			.style("text-shadow", "2px 2px black")
     		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
   			.transition()
     		.duration(1500)
+			.delay(7000)
     		.style("transform", null);
+				
 			
 			//Portfolio Section
 			d3.select("#port").append("h2")
     		.text("Portfolio")
     		.style("text-align", "center")
-    		.style("line-height", "50px")
-    		.style("font-size", "2em")
+    		.style("line-height", "100px")
+    		.style("font-size", "3.5em")
 			.style("text-shadow", "2px 2px black")
     		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
   			.transition()
     		.duration(1500)
     		.style("transform", null);
 			
-	</script>
+
+			//Contact Section
+			d3.select("#cont").append("h2")
+    		.text("Contact Me")
+    		.style("text-align", "center")
+    		.style("line-height", "100px")
+    		.style("font-size", "3.5em")
+			.style("text-shadow", "2px 2px black")
+    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
+  			.transition()
+    		.duration(1500)
+    		.style("transform", null);
+			
+		</script>
+		
   </body>
 </html>
