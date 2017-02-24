@@ -24,6 +24,7 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
+
   </head>
   <body>
     <!--[if IE]>
@@ -85,12 +86,12 @@
 		
 		<div class="info" id="skills">
 			<h1 class="wow bounceInRight" id="skill">Skills</h1>
-				 <a class="btn btn-medium waves-effect waves-light teal" id="program">Programming</a>
-                    <a class="btn btn-medium waves-effect waves-light green" id="software">Software</a>
-                    <div id="charts">
-                        <div id="chart"></div>
-                        <div id="chart2"></div>
-                    </div>
+            <div id="charts" class="wow rotateIn">
+               <div id="tooltip" class="hidden">
+					<p><strong>Experience in <span id="language">Language</span></strong></p>
+					<p><span id="value">Details</p>
+				</div> 
+            </div>
 		</div>
 				
 		<div class="parallax-container">
