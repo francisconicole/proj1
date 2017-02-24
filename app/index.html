@@ -16,11 +16,7 @@
     <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.css" />
     <!-- endbower -->
     <!-- endbuild -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<link rel="stylesheet" href="animate.min.css">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
@@ -28,7 +24,6 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-
   </head>
   <body>
     <!--[if IE]>
@@ -39,6 +34,7 @@
 		<h1 class="animated fadeIn" data-timeout="400" id="name">Hello I'm Nicole Francisco</h1>
 		<h3 class="animated fadeInUpBig" id="intro">Come see what makes me...</h3>
 		<h3 class="animated fadeInUpBig" id="intro1">Well...</h3>
+		<h1 class="animated bounceInLeft" id="me">Me!!!</h1>
 	</div>
 	
   					  		
@@ -49,8 +45,7 @@
     	</div>
     	
     	<div class="info" id="edu">
-			
-  			<h2 id="cation"></h2>
+  			<h1  class="wow bounceInRight" id="cation">Education</h1>
   			<ul class="span4" id="school">
   				<li class="wow rollIn" id="now">University of Central Florida, 2013 to Current</li>
   				<li class="wow rollIn" id="before">Seminole State College, 2009 - 2013</li>
@@ -70,7 +65,7 @@
     	</div>
     	
   		<div class="info" id="labor">
-  			<h2 id="work"></h2><br>
+  			<h1 class="wow bounceInRight" id="work">Work Experience</h1><br>
   			<ul class="span4">
   				<li class="wow slideInRight" id="current">Student 2009-Current</li>
 				<li></li>
@@ -87,31 +82,15 @@
 				<img src="images/adobe.jpg" alt="Adobe Products">
 			</div>
     	</div>
+		
 		<div class="info" id="skills">
-			<div id="skill"></div>
-			<div class="sk">
-				<ul id="prog" class="wow bounceInLeft">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>jQuery</li>
-					<li>PHP</li>
-					<li>C++</li>
-					<li>D3</li>
-					<li>Node</li>
-					<li>Bower</li>
-					<li>Gulp</li>
-				</ul>
-				<ul id="soft" class="wow bounceInRight">
-					<li>PhotoShop</li>
-					<li>Illistrator</li>
-					<li>Dreamweaver</li>
-					<li>Final Cut Pro</li>
-					<li>Word</li>
-					<li>Excel</li>
-					<li>PowerPoint</li>
-				</ul>
-			</div>
+			<h1 class="wow bounceInRight" id="skill">Skills</h1>
+				 <a class="btn btn-medium waves-effect waves-light teal" id="program">Programming</a>
+                    <a class="btn btn-medium waves-effect waves-light green" id="software">Software</a>
+                    <div id="charts">
+                        <div id="chart"></div>
+                        <div id="chart2"></div>
+                    </div>
 		</div>
 				
 		<div class="parallax-container">
@@ -119,10 +98,10 @@
     	</div>	
     	
     	<div class="info">
-  			<h2 id="port"></h2>
+  			<h1 class="wow bounceInRight" id="port">Portfolio</h1>
 			<div>
-				<a href="portfolio/my_entertainment/index.html" id="tain"><img src="images/entertain.png" alt="Entertainment Web Site" class="wow fadeIn"></a>
-				<a href="portfolio/hordes_warmachine/landing.html" id="horde"><img src="images/hordes.png" alt="Entertainment Web Site" class="wow fadeIn"></a>
+				<a href="portfolio/my_entertainment/index.html" id="tain"><img src="images/entertain.png" alt="Entertainment Web Site" class="wow rotateInDownLeft"></a>
+				<a href="portfolio/hordes_warmachine/landing.html" id="horde"><img src="images/hordes.png" alt="Entertainment Web Site" class="wow rotateInDownRight"></a>
 			</div>
 			<div class="wow pulse">
 				<p class="direct">Click on image to view Site.</p>
@@ -131,12 +110,12 @@
 		</div>
     
 		<div class="parallax-container">
-      		<div class="parallax"> <img src="images/contact.jpg" alt="Contact image"></div>
+      		<div class="parallax"> <img src="images/contact.png" alt="Contact image"></div>
     	</div>
 		
 		<div class="info">
-			<h2 id="cont"></h2>
-			<div id="cont_me">
+			<h1 class="wow bounceInRight" id="cont">Contact Me</h1>
+			<div id="cont_me" class="wow bounceInUp">
 				<form  action="MAILTO:franciscon@kngiths.ucf.edu" method="post"> 
 					<div class="input-field">
 						<input id="first_name" name="first_name" type="text" class="validate" required="required">
@@ -155,7 +134,7 @@
 						<label for="textarea">Message</label>
 					</div>
 					<div class="input-field center">
-						<button class="btn waves-effect waves-green" type="submit" name="action">Send</button>
+						<button class="btn waves-effect waves-green" type="submit" name="action" id="send1" >Send</button>
 					</div>
 				</form>
 			</div>
@@ -170,8 +149,6 @@
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
       ga('create','UA-XXXXX-X');ga('send','pageview');
     </script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      	<script type="text/javascript" src="scripts/materialize.min.js"></script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -185,103 +162,7 @@
     
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
-	<script src="scripts/scrollmagic/minified/ScrollMagic.min.js"></script>
     <!-- endbuild -->
-	
-
-	<script>
-    		$(document).ready(function(){
-      			$('.parallax').parallax();
-				$(".fancy_title").lettering();
-				Materialize.updateTextFields();
-    		});
-			
-			new WOW().init();
-			
-			//Intro Section
-		
-
-			d3.select("#fly").append("h2")
-    		.text("ME!!")
-    		.style("text-align", "center")
-    		.style("line-height", "320px")
-    		.style("font-size", "5em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-    		.duration(1500)
-    		.style("transform", null);
-	
-			//Education Section
-   
-            d3.select("#cation").append("h2")
-    		.text("Education")
-    		.style("text-align", "center")
-    		.style("line-height", "120px")
-    		.style("font-size", "3em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-			.delay(2000)
-    		.duration(1500)
-    		.style("transform", null);
-		
-			
-			//Work Section
-			
-			d3.select("#work").append("h2")
-    		.text("Work History")
-    		.style("text-align", "center")
-    		.style("line-height", "120px")
-    		.style("font-size", "2em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-    		.duration(1500)
-			.delay(5000)
-    		.style("transform", null);
-	
-			//skills section
-			
-			d3.select("#skill").append("h1")
-    		.text("Skills")
-    		.style("text-align", "center")
-    		.style("line-height", "50px")
-    		.style("font-size", "5em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-    		.duration(1500)
-			.delay(7000)
-    		.style("transform", null);
-				
-			
-			//Portfolio Section
-			d3.select("#port").append("h2")
-    		.text("Portfolio")
-    		.style("text-align", "center")
-    		.style("line-height", "100px")
-    		.style("font-size", "3.5em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-    		.duration(1500)
-    		.style("transform", null);
-			
-
-			//Contact Section
-			d3.select("#cont").append("h2")
-    		.text("Contact Me")
-    		.style("text-align", "center")
-    		.style("line-height", "100px")
-    		.style("font-size", "3.5em")
-			.style("text-shadow", "2px 2px black")
-    		.style("transform", "rotate(-180deg) scale(0.001, 0.001)")
-  			.transition()
-    		.duration(1500)
-    		.style("transform", null);
-			
-		</script>
 		
   </body>
 </html>

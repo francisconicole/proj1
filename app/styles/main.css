@@ -1,3 +1,12 @@
+		
+ #me {
+	margin-top: 15%;
+	font-size: 7em;
+	color: #25F597;
+	-webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+ }
+ 
  .wow { 
 	visibility: hidden; 
 }
@@ -38,8 +47,6 @@
 	color: #BCF7DF;
 }
 
-
-
 #intro {
 	font-size: 2em;
 	color: #BCF7DF;
@@ -51,14 +58,14 @@
 }
 
 #labor ul li {
-	color: #94F7EC;
-	font-size: 2em;
+	color: #BCF7DF;
+	font-size: 1.5em;
 	list-style-type: circle;
 }
 
 #edu ul li {
-	color: #94F7EC;
-	font-size: 2em;
+	color: #BCF7DF;
+	font-size: 1.5em;
 	list-style-type: circle;
 }
 
@@ -81,17 +88,22 @@ img {
 }
 
 #skills {
-	color: #C0E3FA;
+	color: #22C997;
 }
 
 #skills ul li {
-	color: #94F7EC;
+	color: #BCF7DF;
 	font-size: 2em;
 }
 
-body { 
-	font: 12px Arial;
+#cation {
+	color: #22C997;
 }
+
+body { 
+	font-family: 'Indie Flower', cursive;
+}
+ 
  
 path { 
   stroke: steelblue;
@@ -99,28 +111,6 @@ path {
   fill: none;
 }
  
-.axis path,
-.axis line {
-	fill: none;
-	stroke: grey;
-	stroke-width: 1;
-	shape-rendering: crispEdges;
-}
-
-.tooltip {
-	background: #eee;
-	box-shadow: 0 0 5px #999999;
-	color: #333;
-	font-size: 12px;
-	left: 130px;
-	padding: 0px;
-	position: absolute;
-	text-align: center;
-	top: 95px;
-	z-index: 10;
-	display: block;
-	opacity: 0;
-}
 
 .title{
 font-size:16px;
@@ -145,9 +135,13 @@ font-size:16px;
 
 .info h2 {
 	font-size: 2em;
-	color: #C0E3FA;
+	color: #22C997;
 }
 
+.info h1 {
+	font-size: 3.5em;
+	color: #22C997;
+}
 
 /*--------------------------Form Section---------------------------------*/
 #cont_me {
@@ -201,11 +195,4 @@ form {
 }
 
 
-#sections > div{
-    opacity: .3
-} 
-
-#sections div.graph-scroll-active{
-    opacity: 1;
-}
 
